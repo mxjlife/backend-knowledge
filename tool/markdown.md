@@ -212,7 +212,7 @@ ___
 
 文件居中
 <div align="center">
-<img src="https://raw.githubusercontent.com/mxjlife/static/main/1.jpg" width="100" height="100">
+<img src="https://raw.githubusercontent.com/mxjlife/static/raw/main/1.jpg" width="100" height="100">
 </div>
 
 <div align="center">
