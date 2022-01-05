@@ -1,5 +1,4 @@
 # 后端知识图谱
-[toc]
 
 * - [ ] [计算机基础](computer/readme.md)
     * - [ ] [操作系统](computer/operating_system/readme.md)
@@ -144,6 +143,7 @@
     * - [ ] [DevOps](operation/devops.md)
 * - [ ] [工具](tool/readme.md)
     * - [ ] [git](tool/git.md)
+    * - [ ] [github](tool/github.md)
     * - [ ] [gitlab](tool/gitlab.md)
     * - [ ] [maven](tool/maven.md)
     * - [ ] [idea](tool/idea.md)
