@@ -11,6 +11,38 @@
 
 ## 常用命令
 
+### 基本命令
+git init                  # 初始化一个文件夹，采用 git 托管该文件夹的内容
+git diff                  # 将当前工作区的代码与当前 HEAD 对比
+git diff hash             # 将当前工作区的代码与某个提交（由 hash 表示）对比
+git diff --cache          # 将当前工作区的代码与当前暂存区的代码对比
+git checkout bname        # 切换至名为 bname 分支
+git checkout -b bname origin/bname   # 切出远程分支 origin/bname 到本地并命名为 bname
+git add                   # 添加到暂存区
+git commit -m '提交信息'   # 提交
+git commit -p             # 交互式提交
+git stash                 # 暂存当前工作区的代码
+git stash pop             # 将最后一次暂存的内容与当前分支的代码合并
+### 代码合并
+git merge dev           # 合并 dev 分支到当前分支
+git pull origin master  # 拉取 origin 的 master 代码到当前分支
+git merge --continue    # 合并存在冲突被终端，修复冲突后继续执行合并
+git merge --squash dev  # 接受 dev 的代码但不保留 dev 的提交信息（本地 review 代码很有用）
+### 远程管理
+git remote add origin git@xyz.com     # 添加远程仓库
+git remote rename origin he11ow0rld   # 将远程仓库 origin 更名为 he11ow0rld
+git remote remove he11ow0rld          # 移除远程仓库 he11ow0rld
+git fetch origin                      # 抓取 origin 所有分支到本地，但并不合并
+git fetch origin --prune              # 抓取 origin 所有分支到本地并删除那些本地存在但远程已被删除的分支
+### 高级技巧
+git rebase  # 用来将多次 commit 合并到一个提交，可以用于维护一个整洁的 git log
+git reset  # 回退代码
+
+
+
+
+
+
 ### 提交
 
 ### 分支操作 branch
