@@ -15,6 +15,8 @@
         * - [ ] [排序算法](algorithm/problems/sort.md)
 * - [ ] [java](java/readme.md)
     * - [ ] [java基础](java/basics/readme.md)
+	* - [ ] [java进阶](java/senior/readme.md)
+	    * - [ ] [agent](java/senior/agent.md)
     * - [ ] [部分源码](java/src/readme.md)
         * - [ ] [基础类库](java/src/lang/readme.md)
             * - [ ] [String](java/src/lang/string.md)
